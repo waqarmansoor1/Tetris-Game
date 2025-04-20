@@ -1,0 +1,20 @@
+class Block{
+int cellSize;
+int rotationState;
+int rowOffset;
+int columnOffset;
+Block()
+{
+    cellSize = 30;
+    rotationState = 0;
+    rowOffset = 0;
+    columnOffset = 0;
+}
+
+
+
+
+
+
+
+};
