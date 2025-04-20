@@ -1,0 +1,25 @@
+
+class Grid{
+int numrows;
+int numcols;
+Color colors[10];
+int cellsize = 30;
+int grid[20][10];
+Grid(){
+numrows = 20;
+numcols = 10;
+InitializeGrid();
+colors = GetCellColors();
+}
+void printgrid()
+{
+    for (int row = 0; row < numrows; row++)
+    {
+        for (int column = 0; column < numcols; column++)
+        {
+            cout << grid[row][column] << " ";
+        }
+        cout<<endl;
+    }
+}
+};
