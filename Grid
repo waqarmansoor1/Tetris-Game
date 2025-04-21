@@ -2,7 +2,8 @@
 class Grid{
 int numrows;
 int numcols;
-Color colors[10];
+vector <Color> colors;
+//vector is a resizable array which can change size.Dynamic Allocation at run time.
 int cellsize = 30;
 int grid[20][10];
 Grid(){
